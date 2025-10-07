@@ -1,0 +1,542 @@
+{
+        "OPEN" : {  "ticker": "", "function":       "OPEN"},
+    "HIGH": {     "ticker": "", "function":     "HIGH"},
+    "LOW" : {    "ticker": "", "function":      "LOW"},
+    "CLOSE": {     "ticker": "", "function":    "CLOSE"},
+    "VOLUME": {      "ticker": "", "function":      "VOLUME"},
+
+
+    "PREVCLOSE":   {
+       "ticker": "", "function": "PREVCLOSE"
+    },
+    "CHANGE":       {
+       "ticker": "", "function": "CHANGE",
+        "series_type": "close"
+    },
+    "PCTCHANGE":    {
+       "ticker": "", "function": "PCTCHANGE",
+
+        "series_type": "close"
+    },
+
+    "SMA": {
+       "ticker": "", "function": "SMA",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "EMA": {
+       "ticker": "", "function": "EMA",
+
+        "time_period": 60,
+
+        "series_type": "close"
+    },
+    "WMA": {
+       "ticker": "", "function": "WMA",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "DEMA": {
+       "ticker": "", "function": "DEMA",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "TEMA": {
+       "ticker": "", "function": "TEMA",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "TRIMA": {
+       "ticker": "", "function": "TRIMA",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "FAMA": {
+       "ticker": "", "function": "FAMA",
+        "time_period": 60,
+        "slowlimit":0.01,
+        "series_type": "close"
+    },
+
+    "MAMA": {
+       "ticker": "", "function": "MAMA",
+        "time_period": 60,
+        "fastlimit":0.01,
+        "series_type": "close"
+
+
+    },
+    "VWAP": {
+       "ticker": "", "function": "VWAP"
+    },
+    "T3": {
+       "ticker": "", "function": "T3",
+        "time_period": 60,
+        "series_type": "close"
+    },
+
+
+    "MACD_MACD": {
+       "ticker": "", "function": "MACD_MACD",
+
+
+        "series_type": "close",
+        "fastperiod" : 0,
+        "slowperiod"  : 0,
+        "signalperiod" : 0
+     },
+
+     
+    "MACD_SIGNAL": {
+       "ticker": "", "function": "MACD_SIGNAL",
+
+
+        "series_type": "close",
+        "fastperiod" : 0,
+        "slowperiod"  : 0,
+        "signalperiod" : 0
+     },
+     
+    "MACD_HIST": {
+       "ticker": "", "function": "MACD_HIST",
+
+
+        "series_type": "close",
+        "fastperiod" : 0,
+        "slowperiod"  : 0,
+        "signalperiod" : 0
+     },
+
+    "MACDEXT_MACD": {
+       "ticker": "", "function": "MACDEXT_MACD",
+
+
+        "series_type": "close",
+        "fastperiod"  : 0,
+        "slowperiod"  : 0,
+        "signalperiod"  : 0,
+        "fastmatype"  : 0,
+        "slowmatype"  : 0,
+        "signalmatype" : 0,
+        "fastlimit":0.01  
+    },
+
+        "MACDEXT_SIGNAL": {
+       "ticker": "", "function": "MACDEXT_SIGNAL",
+
+
+        "series_type": "close",
+        "fastperiod"  : 0,
+        "slowperiod"  : 0,
+        "signalperiod"  : 0,
+        "fastmatype"  : 0,
+        "slowmatype"  : 0,
+        "signalmatype" : 0,
+        "fastlimit":0.01
+    },
+
+
+        "MACDEXT_HIST": {
+       "ticker": "", "function": "MACDEXT_HIST",
+
+
+        "series_type": "close",
+        "fastperiod"  : 0,
+        "slowperiod"  : 0,
+        "signalperiod"  : 0,
+        "fastmatype"  : 0,
+        "slowmatype"  : 0,
+        "signalmatype" : 0,
+        "fastlimit":0.01
+    },
+
+    "STOCH_SLOWK": {
+       "ticker": "", "function": "STOCH_SLOWK",
+        "fastkperiod" : 0,
+        "slowkperiod" : 0,
+        "slowdperiod" : 0,
+        "slowkmatype" : 0,
+        "slowdmatype": 0,
+        "fastlimit":0.01
+    },
+
+        "STOCH_SLOWD": {
+       "ticker": "", "function": "STOCH_SLOWD",
+        "fastkperiod" : 0,
+        "slowkperiod" : 0,
+        "slowdperiod" : 0,
+        "slowkmatype" : 0,
+        "slowdmatype": 0,
+        "fastlimit":0.01  
+    },
+
+    "STOCHF_FASTK": {
+       "ticker": "", "function": "STOCHF_FASTK",
+
+ 
+        "fastkperiod"  : 0,
+        "fastdperiod"  : 0,
+        "fastdmatype"  : 0,
+        "fastlimit":0.01  
+    },
+
+     "STOCHF_FASTD": {
+       "ticker": "", "function": "STOCHF_FASTD",
+
+ 
+        "fastkperiod"  : 0,
+        "fastdperiod"  : 0,
+        "fastdmatype"  : 0,
+        "fastlimit":0.01  
+    },
+
+    "RSI": {
+       "ticker": "", "function": "RSI",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "STOCHRSI_FASTK": {
+       "ticker": "", "function": "STOCHRSI_FASTK",
+
+
+        "time_period": 60,
+        "series_type": "close",
+        "fastkperiod"  : 0,
+        "fastdperiod"  : 0,
+        "fastdmatype" : 0,
+        "fastlimit":0.01  
+    },
+
+      "STOCHRSI_FASTD": {
+       "ticker": "", "function": "STOCHRSI_FASTD",
+
+
+        "time_period": 60,
+        "series_type": "close",
+        "fastkperiod"  : 0,
+        "fastdperiod"  : 0,
+        "fastdmatype" : 0,
+        "fastlimit":0.01  
+    },
+
+    "WILLR": {
+       "ticker": "", "function": "WILLR",
+
+
+        "time_period": 60
+    },
+
+
+    "ADX": {
+       "ticker": "", "function": "ADX",
+
+
+        "time_period": 60
+    },
+    "ADXR": {
+       "ticker": "", "function": "ADXR",
+
+
+        "time_period": 60
+    },
+    "APO": {
+       "ticker": "", "function": "APO",
+
+
+        "series_type": "close",
+        "fastperiod" :0,
+        "slowperiod"  :0,
+        "matype" :0,
+        "fastlimit":0.01  
+    },
+    "PPO": {
+       "ticker": "", "function": "PPO",
+
+
+        "series_type": "close",
+        "fastperiod"  :0,
+        "slowperiod"  :0,
+        "matype" :0,
+        "fastlimit":0.01  
+    },
+    "MOM": {
+       "ticker": "", "function": "MOM",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "BOP": {
+       "ticker": "", "function": "BOP"
+    },
+    "CCI": {
+       "ticker": "", "function": "CCI",
+
+
+        "time_period": 60
+    },
+    "CMO": {
+       "ticker": "", "function": "CMO",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+
+
+    "ROC": {
+       "ticker": "", "function": "ROC",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "ROCR": {
+       "ticker": "", "function": "ROCR",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+
+    "AROON_AD": {
+       "ticker": "", "function": "AROON_AD",
+
+
+        "time_period": 60
+    },
+
+    "AROON_AU": {
+       "ticker": "", "function": "AROON_AU",
+
+
+        "time_period": 60
+    },
+
+    "AROONOSC": {
+       "ticker": "", "function": "AROONOSC",
+
+
+        "time_period": 60
+    },
+
+    "MFI": {
+       "ticker": "", "function": "MFI",
+
+
+        "time_period": 60
+    },
+
+    "TRIX": {
+       "ticker": "", "function": "TRIX",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+
+
+    "ULTOSC": {
+       "ticker": "", "function": "ULTOSC",
+
+
+        "timeperiod1" : 60,
+        "timeperiod2" : 60,
+        "timeperiod3": 60
+    },
+    "DX": {
+       "ticker": "", "function": "DX",
+
+
+        "time_period": 60
+    },
+    "MINUS_DI": {
+       "ticker": "", "function": "MINUS_DI",
+
+
+        "time_period": 60
+    },
+
+    "PLUS_DI": {
+       "ticker": "", "function": "PLUS_DI",
+
+
+        "time_period": 60
+    },
+
+    "MINUS_DM": {
+       "ticker": "", "function": "MINUS_DM",
+
+
+        "time_period": 60
+    },
+
+    "PLUS_DM": {
+       "ticker": "", "function": "PLUS_DM",
+
+
+        "time_period": 60
+    },
+
+    "BBANDS_RUB": {
+       "ticker": "", "function": "BBANDS_RUB",
+
+
+        "time_period": 60,
+
+        "series_type": "close",
+        "nbdevup" :0,
+        "nbdevdn" :0,
+        "matype":0,
+        "fastlimit":0.01  
+    },
+
+        "BBANDS_RMB": {
+       "ticker": "", "function": "BBANDS_RMB",
+
+
+        "time_period": 60,
+
+        "series_type": "close",
+        "nbdevup" :0,
+        "nbdevdn" :0,
+        "matype":0,
+        "fastlimit":0.01  
+    },
+
+        "BBANDS_RLB": {
+       "ticker": "", "function": "BBANDS_RLB",
+
+
+        "time_period": 60,
+
+        "series_type": "close",
+        "nbdevup" :0,
+        "nbdevdn" :0,
+        "matype":0,
+        "fastlimit":0.01  
+    },
+
+
+    "MIDPOINT": {
+       "ticker": "", "function": "MIDPOINT",
+
+
+        "time_period": 60,
+        "series_type": "close"
+    },
+    "MIDPRICE": {
+       "ticker": "", "function": "MIDPRICE",
+
+
+        "time_period": 60
+    },
+
+    "SAR": {
+       "ticker": "", "function": "SAR",
+
+ 
+        "acceleration":0,
+        "maximum":0
+    },
+    "TRANGE": {
+       "ticker": "", "function": "TRANGE"
+    },
+    "ATR": {
+       "ticker": "", "function": "ATR",
+
+
+        "time_period": 60
+    },
+
+    "NATR": {
+       "ticker": "", "function": "NATR",
+
+
+        "time_period": 60
+    },
+
+    "AD": {
+       "ticker": "", "function": "AD"
+        
+    },
+
+
+    "ADOSC": {
+       "ticker": "", "function": "ADOSC",
+
+ 
+        "fastperiod": 0,
+        "slowperiod":0
+    },
+    "OBV": {
+       "ticker": "", "function": "OBV"
+    },
+    "HT_TRENDLINE": {
+       "ticker": "", "function": "HT_TRENDLINE",
+
+
+        "series_type": "close"
+    },
+
+    "HT_SINE_SINE": {
+       "ticker": "", "function": "HT_SINE_SINE",
+
+
+        "series_type": "close"
+    },
+
+
+        "HT_SINE_LEAD_SINE": {
+       "ticker": "", "function": "HT_SINE_LEAD_SINE",
+
+
+        "series_type": "close"
+    },
+
+    "HT_TRENDMODE": {
+       "ticker": "", "function": "HT_TRENDMODE",
+
+
+        "series_type": "close"
+    },
+
+    "HT_DCPERIOD": {
+       "ticker": "", "function": "HT_DCPERIOD",
+
+
+        "series_type": "close"
+    },
+
+    "HT_DCPHASE": {
+       "ticker": "", "function": "HT_DCPHASE",
+
+
+        "series_type": "close"
+    },
+
+    "HT_PHASOR_PHASE": {
+       "ticker": "", "function": "HT_PHASOR_PHASE",
+
+
+        "series_type": "close"
+    },
+    "HT_PHASOR_QUADRATURE": {
+       "ticker": "", "function": "HT_PHASOR_QUADRATURE",
+
+
+        "series_type": "close"
+    }
+}
