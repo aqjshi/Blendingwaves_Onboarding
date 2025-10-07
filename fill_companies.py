@@ -90,11 +90,17 @@ if __name__ == "__main__":
         Base.metadata.create_all(bind=engine)   
     
     print("⏳ Fetching S&P 500 list…")
-    sp500 = fetch_sp500_tickers() + ["RGTI", "IONQ"]
-    print(f"⏳ Looking up {len(sp500)} symbols via Alpha Vantage…")
+    sp500 = [
+            "AAPL", "AMD", "MSFT", "AMZN", "GOOGL", "NVDA", "TSLA", "META", "JNJ", "JPM",
+            "XOM", "WMT", "PG", "KO", "V", "UNH", "HD", "CRM", "NFLX", "SBUX",
+            "BA", "GE", "F", "AAL", "GME", "BYND", "PLTR", "RIOT", "MRNA", "RBLX",
+            "U", "IONQ", "RGTI"
+        ]
+    print(f" Looking up {len(sp500)} symbols via Alpha Vantage…")
+    print(sp500)
     valid = enrich_with_av(sp500, max_workers=10)
-    print(f"✅ {len(valid)} tickers validated by AV.")
+    print(f" {len(valid)} tickers validated by AV.")
 
-    print("⏳ Upserting into database…")
+    print(" Upserting into database…")
     upsert_companies(valid)
     print("🎉 Done.")
